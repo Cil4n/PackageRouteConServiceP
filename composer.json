@@ -1,0 +1,20 @@
+{
+    "name": "billy/test",
+    "description": "use route controller serviceProvider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Billy Tsai"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.*.*",
+        "laravel/framework": "8.*.*"
+    },
+    "autoload": {
+        "psr-4": {
+          "Billy\\Test\\": "src"
+        }
+      }
+}
